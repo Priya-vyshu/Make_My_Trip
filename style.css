@@ -1,0 +1,914 @@
+header{
+            height:690px;
+            background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg7.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            opacity:0.89;
+        }
+        #main1{
+            /*border: 1px solid;*/
+            margin-left: 100px;
+            display: flex;
+        }
+    
+        /*#p1{
+            font-size: 20px;
+            border: 1px solid;
+            position: absolute;
+            left:13px;
+            top:5px;
+        }
+        #p2{
+            font-size: 20px;
+            border: 1px solid;
+            position: absolute;
+            left:97px;
+            top:5px;
+        }*/
+        .head{
+            /*border: 1px solid grey;*/
+            padding-left:15px ;
+            width: 220px;
+            display: flex;
+            gap: 10px;
+        }
+        .key{
+            width: 150px;
+        }
+        .key img{
+            margin-top: 15px;
+        }
+        #keyp1{
+            font-size:13px ;
+            color: white;
+        }
+        #keyp2{
+            font-size:12px;
+            font-weight:100px;
+            color: rgb(207, 196, 196);
+        }
+        #house_key{
+            line-height:5px;
+        }
+        .biz img{
+            margin-top: 9px;
+        }
+        #bizp1{
+            font-size:15px;
+            color: white;
+        }
+        #bizp2{
+            font-size: 11px;
+            color: white;
+        }
+        #biz_my{
+            line-height: 2px;
+        }
+        .suit img{
+            margin-top: 10px;
+        }
+        .suit{
+            width: 150px;
+        }
+        #suitp1{
+            font-size: 15px;
+            color: white;
+        }
+        #suitp2{
+            font-size:11px;
+            color: white;
+        }
+        #suit_case{
+            line-height:3px;
+        }
+        #loop{
+            /*border: 1px solid;*/
+            display: flex;
+            gap:9px;
+        }
+        .myblue img{
+            margin-top: 10px;
+        }
+        .myblue{
+            border: 1px solid  rgb(100, 189, 237);
+            background-color: rgb(100, 189, 237);
+        }
+        #loop1{
+            font-size: 13px;
+            color: white;
+        }
+        #loop i{
+            margin-top: 10px;
+            color:white;
+        }
+        
+        .india_flag img{
+            margin-top: 10px;
+        }
+        .image_flag{
+            width:150px;
+        }
+        #flag{
+            /*border: 1px solid;*/
+            display: flex;
+            gap: 8px;
+        }
+        #flag i{
+            margin-top: 10px;
+            color: rgb(47, 121, 217);
+        }
+        #flag p{
+            font-size:12px ;
+            color: white;
+        }
+        #main2{
+            /*border: 1px solid grey;*/
+            width: 1200px;
+            display: flex;
+            gap:2px;
+        }
+        #up{
+            /*border: 1px solid;*/
+            display: flex;
+            gap: 280px;
+        }
+        #up1{
+            /*border: 1px solid violet;*/
+            width:1100px;
+            padding:10px 10px 0px 20px;
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top:80px;
+            left: 50px;
+        }
+        #up2{
+            /*border: 1px solid yellow;*/
+            padding: 20px;
+            width: 1120px;
+            display: flex;
+            gap:1px;
+            position: absolute;
+            top: 125px;
+            left: 30px;
+        }
+        #main3{
+            margin-top:20px;
+        }
+        .head1{
+            border: 1px solid rgb(182, 178, 178);
+            border-radius: 10px;
+            padding: 14px;
+            width: 250px;
+        }
+        .head1 a{
+            color: black;
+        }
+        .one,.two,.three{
+            text-decoration: none;
+        }
+        .one{
+            font-size: 19px;
+        }
+        .three{
+            font-size: 14px;
+        }
+        .full{
+            line-height: 5px;
+        }
+        .head2{
+            border: 1px solid  rgb(182, 178, 178);
+            border-radius: 10px;
+            padding: 10px;
+            width: 160px;
+        }
+        .head3{
+            border: 1px solid  rgb(182, 178, 178);
+            border-radius: 10px;
+            padding: 10px;
+            width: 140px;
+        }
+        .line{
+            text-decoration: none;
+        }
+        .head4{
+            border: 1px solid  rgb(182, 178, 178);
+            border-radius: 10px;
+            padding: 10px;
+            width: 250px;
+        }
+        .form{
+            line-height: 2px;
+        }
+        .form p{
+            margin-left:18px;
+            font-size:13px ;
+        }
+        #up3{
+            /*border: 1px solid;*/
+            width: 1200px;
+            display:flex;
+            gap: 10px;
+            position: absolute;
+            top: 270px;
+            left: 50px;
+        }
+        #fare{
+            /*border: 1px solid green;*/
+            width: 200px;
+            line-height: 2px;
+        }
+        #fare h2{
+            font-size: 19px;
+        }
+        #fare button{
+            border-radius: 5px;
+        }
+        .box{
+            border: 1px solid  rgb(182, 178, 178);
+            border-radius: 10px;
+            padding-left:10px;
+            width:150px ;
+        }
+        #whole{
+            border: 2px solid white;
+            border-radius: 40px;
+            background-color: white;
+            position: absolute;
+            left: 140px;
+            top: 200px;
+            width: 1250px;
+            height: 360px;
+        }
+        #bbt{
+            border: 1px solid  rgb(58, 180, 221);
+            width: 180px;
+            height: 40px;
+            border-radius:19px;
+            font-size: 24px;
+            background-color: rgb(58, 180, 221);
+            color: white;
+            font-weight:400;
+            position:relative;
+            top: 480px;
+            left: 670px;
+        }
+        #arrow{
+            line-height:1px;
+            border: 1px solid rgb(204, 201, 201);
+            width: 35px;
+            height: 35px;
+            background-color: white;
+            border-radius:70% ;
+            position:relative;
+            top: 280px;
+            left: 430px;
+        }
+        #arrow i{
+            margin-left: 10px;
+            color: rgb(54, 135, 228);
+        }
+        #sub{
+            border: 1px solid  rgb(211, 192, 192);
+            background-color: white;
+            border-radius:30px;
+            border-width:1px;
+            padding: 15px;
+            display: flex; 
+            width:1100px;
+            justify-content: space-evenly;
+            position: absolute;
+            left:200px;
+            top:130px;
+        }
+        #sub p{
+            font-size: 14px;
+        }
+        #sub2{
+            /*border: 1px solid blue;*/
+            display: flex;
+            gap:6px;
+            position: absolute;
+            top: 590px;
+            left: 712px;
+        }
+        #sub2 p{
+            font-size: 13px;
+            color: white;
+        }
+        .close{
+            color: white;
+            display: flex;
+            flex-direction:column;
+        }
+        #whole2{
+            border: 1px solid rgb(220, 216, 216);
+            width: 1200px;
+            background-color: white;
+            border-radius: 25px;
+            display: flex;
+            position:relative;
+            left: 155px;
+            bottom: 50px;
+        
+            
+        }
+        .web{
+            /*border: 1px solid;*/
+            display: flex;
+            align-items: center;
+            gap:6px;
+           
+        }
+        .web a{
+            text-decoration: none;
+            color: black;
+        }
+        .web h3{
+            font-size:15px;
+        }
+        .web1,.web2,.web5{
+           font-size: 15px;
+           width: 400px;
+        }
+        .web3,.web4{
+            width: 450px;
+        }
+        .line2{
+            border: 1px solid rgb(222, 217, 217);
+            border-width:1px;
+        }
+        #whole3{
+            border: 1px solid rgb(217, 211, 211);
+            background-image: url(https://go-assets.ibcdn.com/u/MMT/images/1736424341541-oneAirlineBg.png);
+            background-repeat:no-repeat;
+            background-position:bottom,left;
+            background-size:cover;
+            opacity: 0.9;
+            border-radius:20px ;
+            width: 1100px;
+            display: flex;
+            gap: 90px;
+            position: relative;
+            left: 200px;
+        }
+        #emirates{
+           position:relative;
+           bottom:250px;
+           left: 202px;
+           
+        }
+        #plane{
+            border: 1px solid white;
+            height:250px;
+            width: 400px;
+            background-image: url(https://platforms.makemytrip.com/contents/1ed1f402-1982-4bc8-b643-1af62c2e6db7);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-bottom-right-radius:90px;
+            border-top-right-radius:90px;
+        }
+        #plane1 a{
+            text-decoration: none;
+            color: black;
+        }
+        #plane1 span{
+            color: red;
+        }
+        #plane1 p{
+            color: grey;
+            font-size: 16px;
+        }
+        #plane1 button{
+            width: 220px;
+            height: 45px;
+            border: 1px solid rgb(92, 173, 208);
+            border-radius: 15px;
+            color:rgb(92, 173, 208) ;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: white;
+        }
+        #section3 div{
+            border: 1px solid rgb(222, 211, 211);
+            border-radius: 10px;
+            width: 920px;
+            position: relative;
+            left: 250px;
+        }
+        #section3 span{
+            position: relative;
+            left: 1090px;
+            bottom:85px;
+        }
+        #line3,#line4{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        #cover{
+            border: 1px solid rgb(227, 227, 227);
+            width: 20px;
+            background-color: white;
+            border-width: 2px;
+            height: 20px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 20px;
+        }
+        #cover2{
+            border: 1px solid  rgb(227, 227, 227);
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-width: 2px;
+            position: relative;
+            right: 22px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 20px;
+        }
+        #cover i{
+            position: relative;
+            left:7px;
+        }
+        .all{
+            border: 1px solid rgb(203, 193, 193);
+            border-radius: 20px;
+            width: 460px;
+            height: 190px;
+            display:flex;
+            gap: 25px;
+        }
+        .all a{
+            text-decoration: none;
+        }
+        nav{
+            border: 1px solid none ;
+            width: 550px;
+            padding:10px;
+            display: flex;
+            justify-content: space-evenly;
+            position:relative;
+            top: 10px;
+        }
+        nav #bb{
+            color:blue;
+        }
+        #out{
+            width: 85px;
+            position: relative;
+            right: 455px;
+            bottom:487px;
+            border: 1px solid blue;
+            border-width: 2px;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+            font-weight: bold;
+        }
+        #pp{
+            color: blue;
+        }
+        #line4 i{
+            color: blue;
+        }
+        .out1{
+            font-size: 13px;
+            font-weight: bold;
+            color: grey;
+        }
+        .img{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/appfest/2x//air-france-116x116-25042025.jpg?);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        
+        .out2{
+            color: black;
+            font-size:11px;
+            font-weight: bold;
+            position:relative;
+            bottom:35px;
+            right: 2px;
+        }
+        .out3{
+            width: 50px;
+            position: relative;
+            right: 105px;
+            bottom:39px;
+            border: 1px solid red;
+        }
+        .out4{
+            color: grey;
+            font-size: 14px;
+            position:relative;
+            bottom:40px;
+            right: 2px;
+        }
+        .out5{
+            border: 1px solid white;
+            color: blue;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: white;
+            position: relative;
+            left: 150px;
+            bottom: 20px;
+        }
+        .out6{
+            font-size: 12px;
+            color: grey;
+            font-weight: bold;
+            position:relative;
+            left: 179px;
+            bottom: 35px;
+
+        }
+        .all2{
+            line-height:16px;
+        }
+        .oot{
+           position:relative;
+           right: 108px;
+        }
+        .oot1{
+           position:relative;
+           right: 80px;
+        }
+        .oot2{
+            position:relative;
+            right:106px;
+        }
+        .img1{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/appfest/2x//Spotlight-Hotels-DT-240325.jpg);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .img2{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/notification/xhdpi//desktop-SterlingHotel-221122@2x.jpg?);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .img3{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/appfest/2x//dbs-bg-05122024.jpg?);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .img4{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/appfest/2x//Prebuzz-Desktop-IMWPS-24Apr.jpg?);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .img5{
+            border: 1px solid white;
+            padding:10px;
+            background-image: url(https://promos.makemytrip.com/notification/xhdpi//116X116-hdfc-31012025_updated.jpg?);
+            background-repeat:no-repeat;
+            background-size:cover;
+            border-radius: 19px;
+            height:130px;
+            width:140px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .oot3{
+            position: relative;
+            right:75px ;
+        }
+        .oot4{
+            position:relative;
+            right: 99px;
+        }
+        #single{
+            /*border: 1px solid red;*/
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width:550px;
+        }
+        #single1{
+            /*border: 1px solid violet;*/
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width:550px;
+        }
+        #single2{
+            /*border: 1px solid blue;*/
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width:550px;
+        }
+        #whole4{
+            border: 1px solid none;
+            padding: 10px;
+            height: 430px;
+            width: 1190px;
+            display: flex;
+            gap: 10px;
+            overflow:hidden;
+        }
+        #section4{
+            border: 1px solid rgb(233, 228, 228);
+            border-radius: 25px;
+            background-color: white;
+            width: 1230px;
+            margin-left:130px;
+        }
+        .line5{
+            border: 1px solid rgb(227, 224, 224);
+            border-radius:10px;
+            background-color: white;
+            padding: 10px,0px,0px,10px;
+            width: 400px;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        .line5 a{
+            text-decoration: none;
+        }
+        .line5 h3{
+            font-size: 17px;
+            color: grey;
+            font-weight: 900;
+        }
+        .line5 p{
+            font-size: 16px;
+            color: blue;
+            font-weight:bold;
+            position:relative;
+            bottom: 13px;
+        }
+        #whole5{
+            border: 1px solid none;
+            width: 1210px;
+            display: flex;
+            gap: 20px;
+            position: relative;
+            left: 140px;
+            top: 50px;
+        }
+        #ha{
+            /*border: 1px solid;*/
+            padding:9px;
+            display: flex;
+            align-items: center;
+            gap:20px;
+        }
+        #ha1 h1{
+            font-size:36px;
+        }
+        #ha1 p{
+            font-size: 16px;
+            position:relative;
+            bottom: 23px;
+        }
+        #ha1 b{
+            font-size: 18px;
+            font-weight: 900;
+        }
+        #ha2{
+            border: 1px solid rgb(185, 182, 182);
+            width: 340px;
+            padding:4px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            left: 20px;
+            bottom: 10px;
+        }
+        #ha2 input{
+            border: 1px solid white;
+        }
+        #ha2 button{
+            border: 1px solid blue;
+            background-color: white;
+            width: 349px;
+            height: 50px;
+        }
+        #hello{
+            /*border: 1px solid yellow;*/
+            display: flex;
+            flex-direction: column;
+        }
+        #ha3{
+            /*border: 1px solid blue;*/
+            padding:10px;
+            width: 120px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        #ha4{
+            /*border:1px solid blue;*/
+            width: 250px;
+            display:flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #section6{
+            border: 1px solid rgb(224, 218, 218);
+            border-radius: 15px;
+            width: 1000px;
+            display:flex;
+            gap:20px;
+            position: relative;
+            left: 250px;
+            top:90px;
+        }
+        button a{
+            text-decoration: none;
+            color: blue;
+            background-color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .circle{
+            border: 1px solid white;
+            height:60px;
+            width:60px;
+            border-radius: 50%;
+        }
+        .round{
+            /*border: 1px solid violet;*/
+            padding: 10px;
+            width: 360px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        #section7{
+            border: 1px solid rgb(213, 208, 208);
+            border-radius: 15px ;
+            padding: 25px;
+            height: 270px;
+            width: 1180px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            position: relative;
+            left: 130px;
+            top: 120px;
+            
+        }
+        .cc p{
+            position: relative;
+            bottom: 18px;
+        }
+        .cir1{
+            background-image: url(http://promos.makemytrip.com/images/50x50-Other-23052019.png);
+        }
+        .cir2{
+            background-image: url(http://promos.makemytrip.com/images/50x50-Ooty-23052019.png);
+        }
+        .cir3{
+            background-image: url(https://promos.makemytrip.com/store/SingaporeDT.JPG);
+        }
+        .cir4{
+            background-image: url(https://promos.makemytrip.com/store/GoaDT.JPG);
+        }
+        .cir5{
+            background-image: url(https://promos.makemytrip.com/store/DelhiDT.JPG);
+        }
+        .cir6{
+            background-image: url(https://promos.makemytrip.com/store/BangaloreDT.JPG);
+        }
+        .cir7{
+            background-image: url(https://promos.makemytrip.com/store/MumbaiDT.JPG);
+        }
+        .cir8{
+            background-image: url(https://promos.makemytrip.com/store/PuneDT.JPG);
+        }
+        .cir9{
+            background-image: url(https://promos.makemytrip.com/store/JaipurDT.JPG);
+        }
+        
+        #para{
+            border: 1px solid none;
+            padding: 10px;
+            width: 1330px;
+            position: relative;
+            left:80px;
+            top:150px;
+        }
+        #para h5{
+            font-size: 13px;
+            font-weight:800;
+        }
+        #para p{
+            font-size: 14px;
+            color: grey;
+        }
+        #para p:hover{
+            color:blue;
+        }
+        .pair{
+            /*border: 1px solid;*/
+            display: flex;
+            justify-content:space-evenly;
+            gap: 10px;
+            
+        }
+        #whole6{
+            border: 1px solid none;
+            position: relative;
+            top: 190px;
+            background-color: #e0dcdc;
+        }
+       
+        .pair a{
+            text-decoration: none;
+            font-size: 13px;
+            color: #767474;;
+            font-weight: 400;
+        }
+        .haa{
+            font-size:18px;
+            color: black;
+            font-weight: 545;
+        }
+        #whole6 hr{
+            width:1200px;
+            color: black;
+        }
+        footer{
+            /*border: 1px solid;*/
+            height: 200px;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            gap: 500px;
+            position: relative;
+            top: 192px;
+            background-color: black;
+        }
+        footer div{
+            display: flex;
+            gap: 20px;
+            color: white;
+        }
+        footer p{
+            font-size: 19px;
+            color: white;
+        }
+
+
+
+       
+
+        
+
+
+       
+              
+        
+
+        
+
+        
+       
+    
